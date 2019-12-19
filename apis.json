@@ -1,0 +1,76 @@
+{
+    "name": "Solace",
+    "description": "Solace Sabah is a Malaysian-based addiction treatment facility and was the first of its type to be established in Malaysia.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28137-solace.jpg",
+    "tags": [
+        "have api",
+        "new"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/solace\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Solace",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28137-solace.jpg",
+            "humanURL": "https:\/\/cloud.solace.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/solace-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/solace"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/docs.solace.com\/APIs.htm"
+        },
+        {
+            "type": "Email",
+            "url": "info@solace.com"
+        },
+        {
+            "type": "Email",
+            "url": "partners@solace.com"
+        },
+        {
+            "type": "Email",
+            "url": "info.kr@solace.com"
+        },
+        {
+            "type": "Email",
+            "url": "info.jp@solace.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@solace.com"
+        },
+        {
+            "type": "Email",
+            "url": "dpo@solace.com"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/cloud.solace.com\/pricing\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/solacedotcom"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/cloud.solace.com"
+        }
+    ]
+}
