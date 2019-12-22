@@ -4,10 +4,12 @@
     "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28137-solace.jpg",
     "tags": [
         "have api",
-        "new"
+        "jms",
+        "new",
+        "real-time"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/solace\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -15,13 +17,13 @@
             "name": "Solace",
             "description": null,
             "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28137-solace.jpg",
-            "humanURL": "https:\/\/cloud.solace.com",
+            "humanURL": "http:\/\/solace.com",
             "baseURL": "",
             "tags": [],
             "properties": [
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/solace-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/solace\/master\/solace-postman-collection.json"
                 }
             ]
         }
@@ -29,12 +31,28 @@
     "include": [],
     "x-common": [
         {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/solace.com\/blog\/category\/developers\/"
+        },
+        {
+            "type": "Contact Form",
+            "url": "https:\/\/solace.com\/contact\/"
+        },
+        {
             "type": "Crunchbase",
             "url": "https:\/\/crunchbase.com\/organization\/solace"
         },
         {
             "type": "Documentation",
             "url": "https:\/\/docs.solace.com\/APIs.htm"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/docs.solace.com\/"
         },
         {
             "type": "Email",
@@ -61,8 +79,16 @@
             "url": "dpo@solace.com"
         },
         {
+            "type": "Partners",
+            "url": "https:\/\/solace.com\/company\/partners\/"
+        },
+        {
             "type": "Pricing",
             "url": "https:\/\/cloud.solace.com\/pricing\/"
+        },
+        {
+            "type": "Support",
+            "url": "https:\/\/solace.com\/support\/"
         },
         {
             "type": "Twitter",
@@ -71,6 +97,10 @@
         {
             "type": "Website",
             "url": "https:\/\/cloud.solace.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/solace.com"
         }
     ]
 }
