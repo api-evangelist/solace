@@ -1,8 +1,24 @@
 aid: solace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solace.png
 name: Solace
-description: 'Solace is a company surfaced as a portfolio company of craft-ventures, menlo-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: health. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Solace Health is a US healthcare navigation company that connects patients
+  with human patient advocates and care coordinators whose services are covered by
+  insurance, including Medicare. Through solace.health and the app.solace.health member
+  portal, patients are matched with an advocate who helps them understand diagnoses,
+  prepare for appointments, coordinate care, manage bills, and navigate the healthcare
+  system. Solace is a consumer-facing healthcare service company; as of this profile
+  it does not publish a public developer program, API, SDKs, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/solace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health
+- Healthcare
+- Patient Advocacy
+- Care Navigation
+- Medicare
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +46,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://solace.health
+  url: https://www.solace.health
+- type: Blog
+  url: https://www.solace.health/blog
+- type: Support
+  url: https://www.solace.health/contact-us
+- type: Login
+  url: https://app.solace.health/login
+- type: TermsOfService
+  url: https://app.solace.health/terms-of-service
+- type: PrivacyPolicy
+  url: https://app.solace.health/privacy-policy
+- type: StatusPage
+  url: https://status.solace.health
+- type: GitHubOrganization
+  url: https://github.com/solace-health
+- type: DomainSecurity
+  url: security/solace-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
