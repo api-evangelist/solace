@@ -56,6 +56,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: About
+  url: https://www.solace.health/about
 - type: Website
   url: https://www.solace.health
 - type: Blog
